@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:auto;
+    max-width: 500px;
+
+  }
+  .first-half{
+      height: 50vh;
+      background-color:dodgerblue
+  }
+/* a {
+    text-decoration: none;
+    color:#ffffff;
+} */
+
+.container {
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+ }
+ .form-container{
+    margin: .5em;
+    border-radius: 25px;
+    border: 2px solid #C8CCD4;
+    padding: 20px;
+    background-color: white;
+    height: auto;
+ }
+ label {
+    font-size: 2opx;
+  }
+  .icon {
+    padding: 10px;
+    opacity: 0.3;
+    min-width: 50px;
+    text-align: center;
+    left: 20%;
+  }
+ input{
+    -webkit-appearance: none;
+    width: 500px;
+    border: 0;
+    font-family: inherit;
+    height: 48px;
+    font-size: 12px;
+    font-weight: 200;
+    border-bottom: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all .15s ease
+ }
+ .input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+ }
+ .btn{
+    background-color: dodgerblue;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    position: relative;
+    top:-30px;
+    left:20px;
+    width: 80%;
+    border-radius: 25%;
+    opacity: 0.9;
+ }
+ .text{
+    position: relative;
+    left:150px;
+ }
+ .box{
+    width:100px;
+    height:100px;
+}
+.search-btn{
+    margin-left:5em;
+    margin-top: .1em;
+    border:1px solid;
+    background-color:dodgerblue;
+    border-radius: 25%;
+    height: 30px;
+    width:150px;
+    color:white;
+    
+}
+.checked {
+    color: orange;
+  }
+  .unchecked{
+      color:azure
+  }
+  .body{
+      height: 100px;
+      width: auto;
+      border: 1px solid;
+      border-radius: 25px;
+  }
+  .body img{
+      width:100px;
+      height:100px;
+      border: 1px solid;
+      border-radius: 25px 0px 0px 25px;
+  }
+.star{
+    position: relative;
+    top:-70px;
+}
+.hrt{
+    position: relative;
+    top:-70px;
+}
